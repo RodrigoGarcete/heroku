@@ -79,10 +79,10 @@ WSGI_APPLICATION = 'python_heroku_task.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'python_heroku_task',
-        'USER': 'rodri',
-        'PASSWORD': 'root',
-        'HOST': 'localhost',
+        'NAME': 'verceldb',
+        'USER': 'default',
+        'PASSWORD': 'jdptBugG5QR6',
+        'HOST': 'ep-curly-fire-a4g9u0ha-pooler.us-east-1.aws.neon.tech',
         'PORT': '5432',
     }
 }
