@@ -27,7 +27,7 @@ SECRET_KEY = 'django-insecure-tlv)36c^h%me#0j)!67193036i0(q!%)rm_9k19_&32jf9!t3b
 DEBUG = True
 
 ALLOWED_HOSTS = []
-ALLOWED_HOSTS = ['.versel.app','.now.sh','127.0.0.1','localhost']
+ALLOWED_HOSTS = ['.versel.app','.now.sh','127.0.0.1','localhost','heroku-zeta.vercel.app']
 
 
 # Application definition
